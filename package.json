@@ -1,0 +1,25 @@
+{
+  "name": "grunt-svgsheet",
+  "description": "Creates a sprite sheet out of SVGs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "infinise",
+    "email": "phil@infinise.com"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "cheerio": "~0.19.0",
+    "path": "~0.11.14",
+    "svg-path-parser": "~1.0.1",
+    "log-symbols": "~1.0.2",
+    "ejs": "~2.3.1"
+  }
+}
