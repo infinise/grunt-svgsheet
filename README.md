@@ -1,6 +1,6 @@
 # grunt-svgsheet
 
-Creates a sprite sheet out of SVGs by actually re-positioning the individual SVGs on the sheet, rather than using `<symbol>` or `<defs>`. Also creates CSS and demo HTML files using EJS templates.
+Creates a sprite sheet out of SVGs by actually re-positioning the content of the individual SVGs on the sheet, rather than using `<symbol>` or `<defs>`. Also creates CSS and demo HTML files using EJS templates.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
@@ -53,7 +53,7 @@ Width used for icons if no width is found in the SVG.
 Type: `Number`
 Default value: `100`
 
-Height used for icons if no width is found in the SVG.
+Height used for icons if no height is found in the SVG.
 
 #### options.sheetMaxWidth
 Type: `Number`
@@ -75,13 +75,13 @@ Whether to generate a demo HTML file.
 
 #### options.cssTemplate
 Type: `String`
-Default value: `__dirname + '/../templates/css.ejs'`
+Default value: `templates/css.ejs'`
 
-Path to the EJS template file to use for the CSS.
+Path to the EJS template file to use for the CSS. See existing for example.
 
 #### options.htmlTemplate
 Type: `String`
-Default value: `__dirname + '/../templates/html.ejs'`
+Default value: `templates/html.ejs'`
 
-Path to the EJS template file to use for the HTML demo.
+Path to the EJS template file to use for the HTML demo. See existing for example.
 
