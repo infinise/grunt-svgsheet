@@ -1,6 +1,6 @@
 # grunt-svgsheet
 
-> Creates a sprite sheet out of SVGs.
+Creates a sprite sheet out of SVGs by actually re-positioning the individual SVGs on the sheet, rather than using `<symbol>` or `<defs>`. Also creates CSS and demo HTML files using EJS templates.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
