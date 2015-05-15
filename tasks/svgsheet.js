@@ -17,11 +17,6 @@ module.exports = function(grunt) {
   var ejs = require('ejs');
   
   
-  function isset(v) {
-    return (typeof v !== 'undefined');
-  }
-  
-  
   function translateChildren(i, $el, filepath, tx, ty) {
     switch ($el.name) {
       
