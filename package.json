@@ -6,6 +6,10 @@
     "name": "infinise",
     "email": "phil@infinise.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/infinise/grunt-svgsheet.git"
+  },
   "engines": {
     "node": ">= 0.8.0"
   },
