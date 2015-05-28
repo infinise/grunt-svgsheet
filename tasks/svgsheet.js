@@ -172,9 +172,10 @@ module.exports = function(grunt) {
         }
         
         // Move position along for the next file
+        rowHeight = Math.max(rowHeight, icon.height);
+
         if (tx + icon.width < options.sheetMaxWidth) {
           tx += icon.width + options.iconPadding;
-          rowHeight = Math.max(rowHeight, icon.height);
         } else {
           ty += rowHeight + options.iconPadding;
           tx = options.iconPadding;
