@@ -58,13 +58,13 @@ module.exports = function(grunt) {
         break;
 
       case 'circle':
-        $el.attribs.cx = String( parseFloat($el.attribs.cx) + tx );
-        $el.attribs.cy = String( parseFloat($el.attribs.cy) + ty );
+        $el.attribs.cx = String( parseFloat($el.attribs.cx || 0) + tx );
+        $el.attribs.cy = String( parseFloat($el.attribs.cy || 0) + ty );
         break;
 
       case 'rect':
-        $el.attribs.x = String( parseFloat($el.attribs.x) + tx );
-        $el.attribs.y = String( parseFloat($el.attribs.y) + ty );
+        $el.attribs.x = String( parseFloat($el.attribs.x || 0) + tx );
+        $el.attribs.y = String( parseFloat($el.attribs.y || 0) + ty );
         break;
 
       default:
